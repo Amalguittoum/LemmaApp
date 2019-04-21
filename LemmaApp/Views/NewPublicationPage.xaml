@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LemmaApp.Views.NewPublicationPage"
+		     Title="Publication">
+   
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            
+            <Label Text="Publication" FontSize="Medium" />
+            
+            <Editor Text="{Binding pub.description}" FontSize="Small" Margin="0" />
+            <Button Margin="0,10,0,0" Text="Publier"  BackgroundColor="{StaticResource Primary}" TextColor="White" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
